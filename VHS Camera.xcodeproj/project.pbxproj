@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		695386401FF9A28D00796700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6953863F1FF9A28D00796700 /* AppDelegate.swift */; };
-		695386421FF9A28D00796700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386411FF9A28D00796700 /* ViewController.swift */; };
-		695386451FF9A28D00796700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695386431FF9A28D00796700 /* Main.storyboard */; };
 		695386481FF9A28D00796700 /* VHS_Camera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 695386461FF9A28D00796700 /* VHS_Camera.xcdatamodeld */; };
-		6953864A1FF9A28D00796700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695386491FF9A28D00796700 /* Assets.xcassets */; };
 		6953864D1FF9A28D00796700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953864B1FF9A28D00796700 /* LaunchScreen.storyboard */; };
 		695386581FF9A28D00796700 /* VHS_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386571FF9A28D00796700 /* VHS_CameraTests.swift */; };
 		695386631FF9A28D00796700 /* VHS_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386621FF9A28D00796700 /* VHS_CameraUITests.swift */; };
+		695386761FF9A2C400796700 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386701FF9A2C300796700 /* SettingsViewController.swift */; };
+		695386771FF9A2C400796700 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386711FF9A2C300796700 /* PlayerView.swift */; };
+		695386781FF9A2C400796700 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386721FF9A2C400796700 /* RecorderViewController.swift */; };
+		695386791FF9A2C400796700 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386731FF9A2C400796700 /* ShopViewController.swift */; };
+		6953867A1FF9A2C400796700 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386741FF9A2C400796700 /* PhotoManager.swift */; };
+		6953867B1FF9A2C400796700 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695386751FF9A2C400796700 /* PreviewViewController.swift */; };
+		6953867D1FF9A2EA00796700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6953867C1FF9A2EA00796700 /* Main.storyboard */; };
+		6953867F1FF9A30000796700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6953867E1FF9A30000796700 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,7 @@
 /* Begin PBXFileReference section */
 		6953863C1FF9A28D00796700 /* VHS Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VHS Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6953863F1FF9A28D00796700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		695386411FF9A28D00796700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		695386441FF9A28D00796700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		695386471FF9A28D00796700 /* VHS_Camera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VHS_Camera.xcdatamodel; sourceTree = "<group>"; };
-		695386491FF9A28D00796700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6953864C1FF9A28D00796700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6953864E1FF9A28D00796700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		695386531FF9A28D00796700 /* VHS CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VHS CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,14 @@
 		6953865E1FF9A28D00796700 /* VHS CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VHS CameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695386621FF9A28D00796700 /* VHS_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VHS_CameraUITests.swift; sourceTree = "<group>"; };
 		695386641FF9A28D00796700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695386701FF9A2C300796700 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		695386711FF9A2C300796700 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		695386721FF9A2C400796700 /* RecorderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		695386731FF9A2C400796700 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		695386741FF9A2C400796700 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		695386751FF9A2C400796700 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		6953867C1FF9A2EA00796700 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6953867E1FF9A30000796700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				6953863F1FF9A28D00796700 /* AppDelegate.swift */,
-				695386411FF9A28D00796700 /* ViewController.swift */,
-				695386431FF9A28D00796700 /* Main.storyboard */,
-				695386491FF9A28D00796700 /* Assets.xcassets */,
+				695386741FF9A2C400796700 /* PhotoManager.swift */,
+				695386711FF9A2C300796700 /* PlayerView.swift */,
+				695386751FF9A2C400796700 /* PreviewViewController.swift */,
+				695386721FF9A2C400796700 /* RecorderViewController.swift */,
+				695386701FF9A2C300796700 /* SettingsViewController.swift */,
+				695386731FF9A2C400796700 /* ShopViewController.swift */,
+				6953867C1FF9A2EA00796700 /* Main.storyboard */,
+				6953867E1FF9A30000796700 /* Assets.xcassets */,
 				6953864B1FF9A28D00796700 /* LaunchScreen.storyboard */,
 				6953864E1FF9A28D00796700 /* Info.plist */,
 				695386461FF9A28D00796700 /* VHS_Camera.xcdatamodeld */,
@@ -235,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6953867D1FF9A2EA00796700 /* Main.storyboard in Resources */,
+				6953867F1FF9A30000796700 /* Assets.xcassets in Resources */,
 				6953864D1FF9A28D00796700 /* LaunchScreen.storyboard in Resources */,
-				6953864A1FF9A28D00796700 /* Assets.xcassets in Resources */,
-				695386451FF9A28D00796700 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695386421FF9A28D00796700 /* ViewController.swift in Sources */,
 				695386481FF9A28D00796700 /* VHS_Camera.xcdatamodeld in Sources */,
 				695386401FF9A28D00796700 /* AppDelegate.swift in Sources */,
+				6953867A1FF9A2C400796700 /* PhotoManager.swift in Sources */,
+				695386791FF9A2C400796700 /* ShopViewController.swift in Sources */,
+				695386761FF9A2C400796700 /* SettingsViewController.swift in Sources */,
+				695386781FF9A2C400796700 /* RecorderViewController.swift in Sources */,
+				695386771FF9A2C400796700 /* PlayerView.swift in Sources */,
+				6953867B1FF9A2C400796700 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		695386431FF9A28D00796700 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				695386441FF9A28D00796700 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6953864B1FF9A28D00796700 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
